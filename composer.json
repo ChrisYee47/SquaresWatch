@@ -4,6 +4,13 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "authors": [
+        {
+            "name": "Chris Yee",
+            "email": "cyee4747@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.2.*",
