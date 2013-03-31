@@ -18,7 +18,9 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
-            new JMS\SecurityExtraBundle\JMSSecurityExtraBundle()
+            new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            new DrawSmooth\ScoreGetterBundle\DrawSmoothScoreGetterBundle(),
+            new DrawSmooth\SquaresInterfaceBundle\DrawSmoothSquaresInterfaceBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -1,2 +1,10 @@
+draw_smooth_squares_interface:
+    resource: "@DrawSmoothSquaresInterfaceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+draw_smooth_score_getter:
+    resource: "@DrawSmoothScoreGetterBundle/Resources/config/routing.yml"
+    prefix:   /
+
 
 
