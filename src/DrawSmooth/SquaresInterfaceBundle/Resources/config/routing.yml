@@ -1,0 +1,3 @@
+draw_smooth_squares_interface_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: DrawSmoothSquaresInterfaceBundle:Default:index }

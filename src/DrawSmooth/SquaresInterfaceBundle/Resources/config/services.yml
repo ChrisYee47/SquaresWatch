@@ -1,0 +1,7 @@
+parameters:
+#    draw_smooth_squares_interface.example.class: DrawSmooth\SquaresInterfaceBundle\Example
+
+services:
+#    draw_smooth_squares_interface.example:
+#        class: %draw_smooth_squares_interface.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
