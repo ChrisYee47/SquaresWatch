@@ -1,7 +1,3 @@
-landing:
-    pattern:  /
-    defaults: { _controller: DrawSmoothScoreGetterBundle:Default:index }
-
 gamesList:
     pattern:  /gamesList
     defaults: { _controller: DrawSmoothScoreGetterBundle:Default:gamesList }

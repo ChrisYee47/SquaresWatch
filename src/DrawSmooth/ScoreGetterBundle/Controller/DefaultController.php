@@ -8,16 +8,6 @@ use Goutte\Client;
 
 class DefaultController extends Controller
 {
-    public function indexAction() {
-    	$logger=$this->get('logger');
-
-    	$crawler = $this->establishConnection();
-    	$gamesList = $this->getGamesList($crawler);
-
-    	return $this->render('DrawSmoothScoreGetterBundle:Default:index.html.twig', array('name' => 'Test Two'));
-    }
-
-
     public function gamesListAction() {
         $crawler = $this->establishConnection();
         $gamesList = $this->getGamesList($crawler);
